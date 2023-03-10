@@ -1,0 +1,17 @@
+<h2>Change your life: Learn to code</h2>
+<h1>Awesome Products</h1>
+<% @products.each do |product| %>
+  <div class="card-product">
+    <div class="card-product-infos">
+        <div>
+            <%= product.name %>
+        </div>
+
+        <div>
+            <%= product.tagline %>
+        </div>
+
+        <p>======================</p>
+    </div>
+  </div>
+<% end %>
